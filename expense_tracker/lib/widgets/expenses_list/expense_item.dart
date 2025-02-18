@@ -2,11 +2,11 @@ import 'package:expense_tracker/models/expense.dart';
 import 'package:flutter/material.dart';
 
 class ExpenseItem extends StatelessWidget {
-  const ExpenseItem(this.expense, {super.key});
-
+  const ExpenseItem(this.expense, {super.key});  // constructor
+  
   final Expense expense;
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Card(
       
